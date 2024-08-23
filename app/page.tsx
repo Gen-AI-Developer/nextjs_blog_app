@@ -39,7 +39,7 @@ export default async function Home() {
             <h2>{post.title}</h2>
           </CardContent>
           <CardDescription className="px-6 py-2 dark:text-zinc-400">
-            <p>{post.smallDescription.slice(0, 100) + "..."}</p>
+            {post.smallDescription.slice(0, 100) + "..."}
           </CardDescription>
           <CardFooter className="m-0 flex-col items-start">
             <button className="w-full bg-primary dark:bg-primary font-semibold rounded p-2 shadow">
