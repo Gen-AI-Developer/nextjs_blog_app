@@ -20,7 +20,7 @@ const BlogArticle = async ({ params }: { params: { slug: string } }) => {
     <div className="mt-8 mb-8 items-center">
       <h1 className="">
         <span className="block text-base text-center text-primary font-semibold tracking-wide uppercase border-b-2 pb-2">
-          Developer's Blog
+          Developers Blog
         </span>
         <span className="mt-2 block text-3xl text-center leading-8 font-bold tracking-tight sm:text-4xl">
           {data.title}
