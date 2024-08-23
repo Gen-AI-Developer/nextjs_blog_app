@@ -9,6 +9,8 @@ import {
   CardHeader,
 } from "@/components/ui/card";
 import Link from "next/link";
+
+export const revalidate = 30; // revalidate at most every 30 second
 async function getData() {
   const query = `*[_type== 'blog'] | order(_createdAt desc) {
   title,
