@@ -38,7 +38,7 @@ export default async function Home() {
             />
           </CardHeader>
           <CardContent className="mt-2 text-pretty font-bold text-lg pb-3">
-            <h2>{post.title}</h2>
+            <h2>{post.title.slice(0, 60) + "..."}</h2>
           </CardContent>
           <CardDescription className="px-6 py-2 dark:text-zinc-400">
             {post.smallDescription.slice(0, 100) + "..."}
