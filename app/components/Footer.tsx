@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
@@ -8,12 +9,12 @@ const Footer = () => {
       <footer>
         <Link href={"https://github.com/Gen-AI-Developer"}>
           <Image
+            className="animate-spin"
             src={"/github.png"}
-            width={20}
-            height={20}
+            width={30}
+            height={30}
             alt="github link to developer portfolio"
           />
-          Click Me!
         </Link>
       </footer>
     </div>
